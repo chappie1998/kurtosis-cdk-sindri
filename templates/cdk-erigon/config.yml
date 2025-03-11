@@ -334,7 +334,7 @@ zkevm.sequencer-halt-on-batch-number: 0
 # Can be beneficial for certain applications but may increase the risk of network spam.
 # Use cautiously and consider implementing additional spam prevention measures if enabled.
 # Default: false
-zkevm.allow-free-transactions: false
+zkevm.allow-free-transactions: true
 
 # Enables the processing of pre-EIP155 transactions.
 # Useful for maintaining backward compatibility with older wallets or contracts.
